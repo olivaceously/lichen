@@ -18,7 +18,7 @@ app.get('/facts', function(request, response) {
 });
 
 app.get('/draw', function(request, response) {
-  response.render('pages/draw');
+  response.render('pages/drawLichen/draw');
 });
 
 app.get('/map', function(request, response) {
