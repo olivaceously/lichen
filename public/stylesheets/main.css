@@ -211,3 +211,23 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-white,.w3-hover-border-white:hover{border-color:#fff!important}
 .w3-border-black,.w3-hover-border-black:hover{border-color:#000!important}
 .w3-border-grey,.w3-hover-border-grey:hover,.w3-border-gray,.w3-hover-border-gray:hover{border-color:#bbb!important}
+
+
+.nav {
+  display: flex;
+  margin: 10px;
+}
+
+.nav-right {
+  margin: auto;
+}
+
+.nav-right a {
+  margin: 15px;
+}
+
+.name {
+  font-size: 24px;
+  margin-left: 15px;
+  flex-grow: 1;
+}
