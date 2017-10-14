@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <% include ../partials/header.ejs %>
-  <script type="text/ejs" src="processing.ejs"></script>
+  <% include ../../partials/header.ejs %>
+  <script type="type/javascript" src="processing.js"></script>
+
 </head>
 
 <body>
 
-  <% include ../partials/nav.ejs %>
-  <canvas width="600" height="400" data-processing-sources="Button.pde drawLichen.pde" ></canvas>
+  <% include ../../partials/nav.ejs %>
+  <canvas width="600" height="400" style="border:1px solid #000000;" data-processing-sources="Button.pde drawLichen.pde" ></canvas>
+  <div>Name Your Lichen: <input type="text" value=""></div>
+  <div><input type="submit" value="Add to the Gallery!"></div>
+ 
 
 </body>
 </html>
