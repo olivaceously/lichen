@@ -1,0 +1,7 @@
+{
+  "name": "Lichen",
+  "description": "An educational website about lichen.",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "image": "heroku/nodejs"
+}
